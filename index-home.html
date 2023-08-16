@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>La Santé</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/boostrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/brands.min.css">
+
+	<link rel="stylesheet" type="text/css" href="js/boostrap.min.js">
+	<link rel="stylesheet" type="text/css" href="js/jquery.js">
+</head>
+<body onload="startTime()" onload="getTime()">
+
+	<div id="wrapper">
+		
+		
+		<header id="boxhead">
+			<nav>
+				<div class="curvtop">
+					
+					<div class="icon-head">
+						<i class="fas fa-user-circle"></i> &nbsp;
+						<a href="login.html">Arthur Pendragon</a>
+					</div><!-- icon-head -->
+					
+					
+					<div class="menu-top">
+						<div class="logo-top">
+							<img src="image/Logo-white.png">
+						</div><!-- logo-top -->
+
+						<ul class="move">
+							<li class="homel"><a href="index-home.html">Home</a></li>
+							<li class="treatment"><a href="treatment.html">Treatment</a></li>
+							<li class="contact"><a href="contact.html">Contact</a></li>
+						</ul>
+
+					</div><!-- menu-top -->
+
+					<div class="callemer2">
+						<i class="fas fa-bars"></i>
+
+						<ul class="sub-menu2">
+							<li class="boxlist"><a href="treatment.html">Treatment</a></li>
+							<li class="boxlist"><a href="contact.html">Contact</a></li>
+						</ul><!-- sub-menu -->
+
+					</div><!-- callemer2 -->
+
+
+			    </div>
+			</nav>
+		</header>
+
+		<section id="sliderbanner">
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				  <img src="image/Banner.png" style="width:100%; object-fit: cover; height: 90%; margin-top: 2%;"  >
+				</div>
+				<div class="mySlides fade">
+				  <img src="image/PosterDelivery.png" style="width:100%; object-fit: cover; height: 100%;"  >
+				</div>
+				
+				<div style="text-align:center">
+				  <span class="dot"></span> 
+				  <span class="dot"></span>  
+				</div>
+			</div><!-- slideshow-container -->
+		</section>
+
+		<section id="queue">
+			<div class="box-l">
+				<div class="blt">
+					<img src="image/morning.jpg" width="100%" height="100%" style="border-radius: 0 300px 300px 0">
+					<div class="ttt">
+						<p>รอบเช้า</p>
+					</div>
+				</div>
+
+				<div class="blc">
+					<img src="image/afternoon.jpg" width="100%" height="100%" style="border-radius: 0 300px 300px 0">
+					<div class="ttt">
+						<p>รอบบ่าย</p>
+					</div>
+				</div>
+
+				<div class="blb">
+					<img src="image/evening.jpg" width="100%" height="100%" style="border-radius: 0 300px 300px 0">
+					<div class="ttt">
+						<p>รอบเย็น</p>
+					</div>
+				</div>
+
+			</div><!-- box-l -->
+
+			<div class="box-c">
+				<div class="cir-c">
+					<div class="move-text">
+						<h1>คิวของคุณ</h1>
+						<h2> - </h2>
+						<p>ตอนนี้คิวที่: 49</p>
+						<br>
+						<p1>คิวต่อไป: 50</p1>
+					</div>
+					
+					<div id="realtime"></div>
+
+					<div class="queuecheck">
+						<p>จองคิว</p>
+					</div><!-- queuecheck -->
+
+					<div class="callemer">
+						<p>ติดต่อฉุกเฉิน <i class="fas fa-angle-down"></i></p>
+
+						<ul class="sub-menu">
+							<li class="boxlist"><a href="#">191 &nbsp; เหตุด่วนเหตุร้าย</a></li>
+							<li class="boxlist"><a href="#">1554 หน่วยแพทย์วชิรฯ</a></li>
+							<li class="boxlist"><a href="#">1669 เจ็บป่วยฉุกเฉิน</a></li>
+						</ul><!-- sub-menu -->
+
+					</div><!-- callemer -->
+
+				</div>
+			</div>
+
+			<div class="box-r">
+				<div class="brt">
+					<div class="user1">
+						<a href="#"><img src="image/thin.jpg" width="100%" height="110%" style="border-radius: 300px"></a>
+					</div>
+					<div class="text-right">
+						<div class="onlinecir"></div><p>ออนไลน์/คิวว่าง</p><br>
+
+						<div class="nametop">
+							<p>นพ.กิตติศักดิ์ ชนกมาตุ</p><br>
+							<p1>จองคิวกับคุณหมอ</p1><br>
+							<p2>ขอรับคำปรึกษา</p2>
+						</div><!-- nametop -->
+
+					</div><!-- text-right -->
+				</div>
+
+				<div class="brc">
+					<div class="user2">
+						<a href="#"><img src="image/fat.jpg" width="100%" height="110%" style="border-radius: 300px"></a>
+					</div>
+					<div class="text-right">
+						<div class="onlinecir"></div><p>ออนไลน์/คิวว่าง</p><br>
+						
+						<div class="nametop">
+							<p>นพ.สุชาติ เดชอิทธิรัตน์</p><br>
+							<p1>จองคิวกับคุณหมอ</p1><br>
+							<p2>ขอรับคำปรึกษา</p2>
+						</div><!-- nametop -->
+
+					</div><!-- text-right -->
+
+					<div class="text-right2">
+						<div class="onlinecir"></div><p>ออนไลน์/คิวว่าง</p><br>
+						
+						<div class="nametop">
+							<p3>นพ.สุชาติ เดชอิทธิรัตน์</p3><br>
+							<p1>จองคิวกับคุณหมอ</p1><br>
+							<p2>ขอรับคำปรึกษา</p2>
+						</div><!-- nametop -->
+					</div>
+
+				</div>
+
+				<div class="brb">
+					<div class="user3">
+						<a href="#"><img src="image/woman.jpg" width="100%" height="110%" style="border-radius: 300px"></a>
+					</div>
+					<div class="text-right">
+						<div class="onlinecir"></div><p>ออนไลน์/คิวว่าง</p><br>
+						
+						<div class="nametop">
+							<p>พญ.วีรยา พุ่มเข็ม</p><br>
+							<p1>จองคิวกับคุณหมอ</p1><br>
+							<p2>ขอรับคำปรึกษา</p2>
+						</div><!-- nametop -->
+
+					</div><!-- text-right -->
+				</div>
+
+			</div><!-- box-r -->
+		</section><!-- queue -->
+
+		<section id="detaildoc">
+			<div class="title">
+				ข้อมูลบุคลากรทางการแพทย์
+			</div>
+
+			<div class="boxwoman">
+				<img src="image/woman.jpg" width="40%" height="35%" style="border-radius: 300px">
+
+				<div class="movecirwo">
+					<i class="fas fa-circle"></i><p>ออนไลน์</p>
+				</div>
+
+				<div class="boxwoman-box">
+					<p>ชื่อ : พญ.วีรยา พุ่มเข็ม</p>
+					<p1>ตำแหน่ง : แพทย์รักษาทั่วไป</p1><p3>แพทย์รักษาทั่วไป</p3><br><br>
+					<p2>คุณวุฒิ : ปริญญาตรีการเงิน<span>มหาวิทยาลัยธุรกิจบัณฑิตย์</span></p2>
+				</div><!-- boxwoman-box -->
+
+				<div class="icon-boxwoman">
+					<a href="treatment.html"><i class="fas fa-comments"> &nbsp;</i></a><a href="#"><i class="fas fa-phone" ></i></a>
+						
+				</div>
+			</div><!-- boxwoman -->
+
+			<div class="b-detail">
+				<div class="btd">
+					<div class="cur1">
+						<a href="#"><img src="image/thin.jpg" width="100%" height="100%" style="border-radius: 300px"></a>
+				    </div><!-- cur1 -->
+
+				    <div class="movecirthin">
+						<i class="fas fa-circle"></i><p>ออนไลน์</p>
+					</div>
+
+					<div class="btd-namethin">
+						<p>นพ.กิตติศักดิ์ ชนกมาตุ</p>	
+						<p1>แพทย์รักษาทั่วไป</p1>
+				    </div><!-- btd-namethin -->
+
+				    <div class="icon-thin">
+						<a href="treatment.html"><i class="fas fa-comments"> &nbsp;</i></a><a href="#"><i class="fas fa-phone" ></i></a>
+					</div><!-- icon-thin -->
+
+				</div><!-- btd -->
+
+				<div class="bbd">
+					<div class="cur2">
+						<a href="#"><img src="image/fat.jpg" width="100%" height="100%" style="border-radius: 300px"></a>
+					</div><!-- cur2 -->
+
+					<div class="movecirthin">
+						<i class="fas fa-circle"></i><p>ออนไลน์</p>
+					</div>
+
+					<div class="bbd-namethin">
+						<p>นพ.สุชาติ เดชอิทธิรัตน์</p>
+						<p1>แพทย์รักษาทั่วไป</p1>
+				    </div><!-- btd-namethin -->
+
+				    <div class="icon-thin">
+						<a href="treatment.html"><i class="fas fa-comments"> &nbsp;</i></a><a href="#"><i class="fas fa-phone" ></i></a>
+					</div><!-- icon-thin -->
+
+				</div><!-- bbd -->
+
+				<div class="butt">
+					<p>ดูรายละเอียดเพิ่มเติม</p>
+					<p1>เพิ่มเติม</p1>
+				</div>
+
+				<div class="butb">
+					<a href="treatment.html"><p>Talk Online &nbsp;<i class="fas fa-user-friends"></i></p></a>
+				</div>
+			</div>
+		</section><!-- detaildoc -->
+
+		<section id="poster">
+
+			<div class="headtitle">
+				<p>เตรียมรับมือ &nbsp;<p1>COVID-19</p1></p>
+
+				<div class="titlebox">
+					ปกป้องตัวของคุณและคนที่คุณรัก
+				</div>
+
+			</div><!-- headtitle -->
+
+			<div class="caremer">
+				<a href="index.html"><img src="image/car.png"></a>
+				<h1>สายด่วนถึงโรงพยาบาล</h1>
+				<p>ติดต่อโรงพยาบาลที่ใกล้เคียงได้โดยตรง ทำให้<br>
+				สะดวกต่อการทำงานของเจ้าหน้าที่ และผู้ใช้งาน</p>
+			</div><!-- caremer -->
+
+			<div class="hos">
+				<a href="contact.html"><img src="image/hos.png"></a>
+				<h1>มีแผนที่โรงพยาบาลใกล้เคียง</h1>
+				<p>สามารถสอบถามโรงพยาบาลที่ใกล้เคียง และ สามารถ<br>
+				เข้ารับการรักษาได้เร็วที่สุด</p>
+
+			</div><!-- hos -->
+
+			<div class="doc">
+				<a href="treatment.html"><img src="image/doc.png"></a>
+				<h1>มีทีมแพทย์ที่เชี่ยวชาญ</h1>
+				<p>ทีมผู้เชี่ยวชาญ พร้อมให้คำปรึกษา และพูดคุย<br> 
+				กับผู้ใช้งานโดยตรง</p>
+
+			</div><!-- doc -->
+
+			<div class="phone">
+				<a href="#"><img src="image/phone.png"></a>
+				<h1>การแจ้งเตือนผ่านสมาร์ทโฟน</h1>
+				<p>มีการแจ้งเตือนล่วงหน้า ให้รู้ถึงคิวเข้ารับการรักษา</p>
+
+			</div><!-- phone -->
+
+			
+		</section><!-- poster -->
+
+		<footer id="areafoot">
+			<div class="arecurv">
+
+				<div class="logo-bottom">
+						<img src="image/Logo-white.png">
+
+					<ul class="movefoot">
+						<li class="home2"><a href="index-home.html">Home</a></li>
+						<li><a href="treatment.html">Treatment</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+
+					<div class="con-icon">
+						<i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="fab fa-twitter"></i>
+					</div>
+
+					<div class="textcon">
+						"การช่วยชีวิตคือหน้าที่ของเรา"
+					</div>
+					<div class="coptryight">
+						copyright &copy; 2020 by webdesign17.co.th
+					</div>
+				</div><!-- logo-bottom -->
+			</div><!-- arecurv -->
+		</footer><!-- areafoot -->
+    </div><!-- wrapper -->
+
+</body>
+	<script>
+		function startTime() {
+		  var today = new Date();
+		  var h = today.getHours();
+		  var m = today.getMinutes();
+		  var s = today.getSeconds();
+		  m = checkTime(m);
+		  s = checkTime(s);
+		  document.getElementById('realtime').innerHTML =
+		  h + ":" + m + ":" + s;
+		  var t = setTimeout(startTime, 500);
+		}
+		function checkTime(i) {
+		  if (i < 10) {i = "0" + i}; 
+		  return i;
+		}
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
+    </script>
+</html>

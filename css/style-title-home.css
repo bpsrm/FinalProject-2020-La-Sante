@@ -1,0 +1,377 @@
+@font-face {
+    font-family: 'fc_lamoonbold';
+    src: url('fc_lamoon_bold_ver_1.00-webfont.woff2') format('woff2'),
+         url('fc_lamoon_bold_ver_1.00-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fc_lamoonregular';
+    src: url('fc_lamoon_regular_ver_1.00-webfont.woff2') format('woff2'),
+         url('fc_lamoon_regular_ver_1.00-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fc_homeblack';
+    src: url('fc_home_black_ver_1.01-webfont.woff2') format('woff2'),
+         url('fc_home_black_ver_1.01-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fc_homeregular';
+    src: url('fc_home_regular_ver_1.01-webfont.woff2') format('woff2'),
+         url('fc_home_regular_ver_1.01-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#wrapper{
+ width: 100%;
+ height: 100%;
+ margin: 0 auto;
+ position: relative;
+ overflow: hidden;
+}
+header{
+ width: 100%;
+ height: 721px;
+ float: left;
+ background-color: #113F67;
+ position: relative; 
+ z-index: 1;
+}
+#head-text{
+ width: 65%;
+ height: 150px;
+ /*background-color: #000;*/
+ line-height: 67px;
+ margin-left: 18%;
+ margin-top: 128px;
+}
+.bigtext{
+ font-size: 50px;
+ color: #fff;
+ text-align: center;
+ font-family: fc home;
+}
+.box1{
+ width: 20%;
+ height: 300px;
+ /*background-color: #999;*/
+ margin-left: 15%;;
+ margin-top: 20px;
+ float: left;
+}
+.button-1{
+ width: 70%;
+ height: 25px;
+ background-color: #fff;
+ border-radius: 50px;
+ border: 5px solid #87C0CD;
+ margin-left: 7%;
+ text-align: center;
+ padding: 4% 5%;
+ font-size: 24px;
+ font-family: 'fc_homeregular';
+ box-shadow: 3px 5px 5px #333;
+ transition: all 0.25s ease-in;
+}
+.button-1:hover{
+ background-image: linear-gradient(to right,#87C0CD,#226597,#113F67);
+ color: #fff;
+ cursor: pointer;
+ border: 5px solid #F3F9FB;
+ transform: translate(0,-10px);
+}
+.button-1 a{
+ color: #113F67;
+}
+.button-1:hover a{
+ color: #fff;
+}
+.box1 p {
+ font-size: 18px;
+ font-family: fc home;
+ text-align: center;
+ margin-top: 20px;
+ color: #fff;
+ line-height: 25px;
+}
+.box1 a{
+	color: #113F67;
+}
+.box2 a{
+	color: #113F67;
+}
+.box3 a{
+	color: #113F67;
+}
+.text-login2, .text-register2, .text-emergency2{
+ display: none;
+}
+.box2{
+ width: 20%;
+ height: 300px;
+ /*background-color: #999;*/
+ margin-left: 5%;
+ float: left;
+ margin-top: 20px;
+}
+.button-2{
+ width: 70%;
+ height: 25px;
+ background-color: #fff;
+ border-radius: 50px;
+ border: 5px solid #87C0CD;
+ margin-left: 22px;
+ text-align: center;
+ padding: 4% 5%;
+ font-size: 24px;
+ font-family: 'fc_homeregular';
+ color: #113F67;
+ box-shadow: 3px 5px 5px #333;
+ transition: all 0.25s ease-in;
+}
+.button-2:hover{
+ background-image: linear-gradient(to right,#87C0CD,#226597,#113F67);
+ color: #fff;
+ cursor: pointer;
+ border: 5px solid #F3F9FB;
+ transform: translate(0,-10px);
+}
+.button-2 a{
+ color: #113F67;
+}
+.button-2:hover a{
+ color: #fff;
+}
+.button-2:hover{
+ background-image: linear-gradient(to right,#87C0CD,#226597,#113F67);
+ color: #fff;
+ cursor: pointer;
+ border: 5px solid #F3F9FB;
+ transform: translate(0,-10px);
+}
+.box2 p {
+ font-size: 18px;
+ font-family: fc home;
+ text-align: center;
+ margin-top: 20px;
+ color: #fff;
+ line-height: 25px;
+}
+.box3{
+ width: 20%;
+ height: 300px;
+ /*background-color: #999;*/
+ margin-left: 5%;
+ float: left;
+ margin-top: 20px;
+}
+.button-3{
+ width: 70%;
+ height: 25px;
+ background-color: #fff;
+ border-radius: 50px;
+ border: 5px solid #87C0CD;
+ margin-left: 22px;
+ text-align: center;
+ padding: 4% 5%;
+ font-size: 24px;
+ font-family: 'fc_homeregular';
+ color: #113F67;
+ box-shadow: 3px 5px 5px #333;
+ transition: all 0.25s ease-in;
+}
+.button-3:hover{
+ background-image: linear-gradient(to right,#87C0CD,#226597,#113F67);
+ color: #fff;
+ cursor: pointer;
+ border: 5px solid #F3F9FB;
+ transform: translate(0,-10px);
+}
+.button-3 a{
+ color: #113F67;
+}
+.button-3:hover a{
+ color: #fff;
+}
+.button-3:hover{
+ background-image: linear-gradient(to right,#87C0CD,#226597,#113F67);
+ color: #fff;
+ cursor: pointer;
+ border: 5px solid #F3F9FB;
+ transform: translate(0,-10px);
+}
+.box3 p {
+ font-size: 18px;
+ font-family: fc home;
+ text-align: center;
+ margin-top: 20px;
+ color: #fff;
+ line-height: 25px;
+}
+.circle1{
+ width: 30%;
+ height: 60%;
+ background-color: #87C0CD;
+ border-radius: 50%;
+ position: absolute;
+ top: -20%;
+ left: -10%;
+}
+.circle2{
+ width: 20%;
+ height: 40%;
+ background-color: #226597;
+ border-radius: 50%;
+ position: absolute;
+ top: 75%;
+ left: -5%;
+}
+.circle3{
+ width: 15%;
+ height: 30%;
+ background-color: #87C0CD;
+ border-radius: 50%;
+ position: absolute;
+ top: -15%;
+ left: 93%;
+}
+.circle4{
+ width: 15%;
+ height: 30%;
+ background-color: #226597;
+ border-radius: 50%;
+ position: absolute;
+ top: -15%;
+ left: 75%;
+}
+.circle5{
+ width: 25%;
+ height: 50%;
+ background-color: #226597;
+ border-radius: 50%;
+ position: absolute;
+ top: 65%;
+ left: 85%;
+}
+@media screen and (max-width:376px){
+ #wrapper{
+  width: 375px;
+  margin: 0 auto;
+  overflow: hidden;
+ }
+ header{
+ 	width: 375px;
+ 	height: 812px;
+ 	position: relative;
+ }
+ #head-text{
+  width: 80%;
+  height: 115px;
+  margin-top: 70px;
+  line-height: 25px;
+  margin-left: 40px;
+ }
+ .bigtext{
+  font-size: 20px;
+ }
+ .button-1{
+  width: 100%;
+ }
+ .button-2{
+  width: 100%;
+ }
+ .button-3{
+  width: 100%;
+ }
+ .box1{
+  width: 64%;
+  height: 100px;
+  margin: 0 10%;
+ }
+ .text-login2{
+ 	display: block;
+ 	text-align: left;
+ 	color: #F3F9FB;
+ 	font-size: 20px;
+ 	font-family: 'fc_lamoonregular';
+ 	padding-top: 30px;
+ 	padding-left: 45%;
+ }
+.box2{
+  width: 64%;
+  height: 100px;
+  margin: 10% 10%;
+ }
+ .text-register2{
+ 	width: 100%;
+ 	display: block;
+ 	text-align: left;
+ 	color: #F3F9FB;
+ 	font-size: 20px;
+ 	font-family: 'fc_lamoonregular';
+ 	padding-top: 30px;
+ 	padding-left: 20%;
+ }
+ .box3{
+  width: 64%;
+  height: 100px;
+  margin: 0 10%;
+ }
+ .text-emergency2{
+ 	width: 100%;
+ 	display: block;
+ 	text-align: left;
+ 	color: #F3F9FB;
+ 	font-size: 20px;
+ 	font-family: 'fc_lamoonregular';
+ 	padding-top: 30px;
+ 	padding-left: 20%;
+ }
+ .box1 p, .box2 p, .box3 p{
+  display: none;
+ }
+ .circle1{
+ 	width: 43.7%;
+ 	height: 20%;
+ 	position: absolute;
+ 	top: -7%;
+ 	left: -25%;
+ 	border-radius: 50%;
+ }
+ .circle2{
+ 	width: 28.5%;
+ 	height: 15%;
+ 	position: absolute;
+ 	top: -8%;
+ 	left: 50%;
+ 	border-radius: 50%;
+ }
+ .circle3{
+ 	width: 41.7%;
+ 	height: 20%;
+ 	position: absolute;
+ 	top: -13%;
+ 	left: 85%;
+ 	border-radius: 50%;
+ }
+ .circle4{
+ 	width: 45.4%;
+ 	height: 20%;
+ 	position: absolute;
+ 	top: 87%;
+ 	left: -15%;
+ 	border-radius: 50%;
+ }
+.circle5{
+  	width: 49.4%;
+ 	height: 23%;
+ 	position: absolute;
+ 	top: 82%;
+ 	left: 70%;
+ 	border-radius: 50%;
+ }
+}

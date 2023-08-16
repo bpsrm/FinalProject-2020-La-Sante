@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>La Santé</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style-treatment.css">
+	<link rel="stylesheet" type="text/css" href="css/boostrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/brands.min.css">
+
+	<link rel="stylesheet" type="text/css" href="js/boostrap.min.js">
+	<link rel="stylesheet" type="text/css" href="js/jquery.js">
+</head>
+<body>
+
+	<div id="wrapper">
+
+		<header id="boxhead">
+			<nav>
+				<div class="curvtop">
+					
+					<div class="icon-head">
+						<i class="fas fa-user-circle"></i> &nbsp;
+						<a href="login.html">Arthur Pendragon</a>
+					</div><!-- icon-head -->
+					
+					
+					<div class="menu-top">
+						<div class="logo-top">
+							<img src="image/Logo-white.png">
+						</div><!-- logo-top -->
+
+						<ul class="move">
+							<li class="homel"><a href="index-home.html">Home</a></li>
+							<li class="tm"><a href="treatment.html">Treatment</a></li>
+							<li class="contact"><a href="contact.html">Contact</a></li>
+						</ul>
+
+						<div class="callemer2">
+						<i class="fas fa-bars"></i>
+
+						<ul class="sub-menu2">
+							<li class="boxlist"><a href="index-home.html">Home</a></li>
+							<li class="boxlist"><a href="contact.html">Contact</a></li>
+						</ul><!-- sub-menu -->
+
+					</div><!-- callemer2 -->
+
+					</div><!-- menu-top -->
+
+			    </div>
+			</nav>
+		</header><!-- boxhead -->
+
+		<section id="calltime">
+
+			<div class="onlinecall"><i class="fas fa-circle"></i> ออนไลน์</div>
+			<div class="camera-c"><i class="fas fa-video"></i></div>
+			<div class="microphone-c"><i class="fas fa-microphone"></i></div>
+			<!-- <img src="image/fat.jpg" width="100%" height="100%"> -->
+
+		</section><!-- calltime -->
+
+		<section id="detail-c">
+
+			<div class="curv-q">
+				<h1>ตอนนี้คิวที่:49</h1>
+				<h2>คิวของคุณ</h2>
+				<h3>-</h3>
+			</div><!-- curv-q -->
+
+			<div class="rec-call">
+				<h1>บันทึกวิดีโอ</h1>
+			</div><!-- rec-call -->
+
+			<div class="book-c"><h1><i class="fas fa-book-open"></i></h1></div>
+
+			<div class="endphone-c"><i class="fas fa-phone-slash fa-flip-horizontal"></i></div>
+		</section><!-- detail-c -->
+
+		<section id="chatbot">
+			<div class="titletalk">พูดคุย & ปรึกษา</div>
+			<div class="main-card">
+				  <div class="main-title">
+				  	<span>Arthur Pendragon</span>
+				  	<svg viewBox="0 0 24 24">
+				  		<i class="fas fa-user-circle" style="color: #05DFD7;"></i>
+				    </svg>
+				  </div>
+
+				  <div class="chat-area" id="message-box">
+
+				  </div>
+
+				  <div class="input-div">
+				  	<input class="input-message" name="message" type="text" id="message" placeholder="พิมพ์ข้อความ...">	
+				  	<button class="plustxt"><i class="fas fa-plus-circle"></i></button>	
+				    <button class="input-send" onclick="send()"><i class="fas fa-paper-plane"></i></button>
+				  </div><!-- input-div -->
+			</div><!-- main-card -->
+		</section><!-- chatbot -->
+
+		<section id="pharmacy">
+			<div class="getpill">ยาที่ได้รับ</div>
+			<a href="contact.html"><div class="paymentpill">ชำระเงิน &nbsp;<i class="fas fa-shopping-cart"></i></div></a>
+
+			<div class="box-pill">
+				<div class="zone-l-pill">
+					<div class="toppill1">
+						<p2>ยา/จำนวน</p2>
+						<p1>ยา/จำนวน/หมายเหตุ</p1>
+					</div>
+					<div class="textpill">
+						<h1>1.ยาแก้ไอ (Cough medicine)</h1>
+						<p>1 แผง 12 เม็ด</p>
+						<h1>2.ยาแก้หวัด (Cold medicine)</h1>
+						<p>1 แผง 6 เม็ด</p>
+						<h1>3.แอสไพริน (Aspirin)</h1>
+						<p>1 แผง 12 เม็ด</p>
+					</div><!-- textpill -->
+					<div class="textpillplus">
+						<h1>1.ยาแก้ไอ</h1>
+						<p>- 1 แผง 12 เม็ด<br>
+						   - ครั้งละ 1 เม็ด<br>เช้า/เย็น</p>
+						<h1>2.ยาแก้หวัด</h1>
+						<p>- 1 แผง 6 เม็ด<br>
+						   - ครั้งละ 2 เม็ด <br>เช้า/กลางวัน/เย็น</p>
+						<h1>3.แอสไพริน</h1>
+						<p>- 1 แผง 12 เม็ด<br>
+						   - ครั้งละ 1 เม็ด<br> เช้า/เย็น</p>
+					</div>
+				</div><!-- zone-l-pill -->
+
+				<div class="zone-r-pill">
+					<div class="toppill2">ราคา (บาท)</div>
+					<div class="textpil2">
+						<h1>50</h1>
+						<h2>20</h2>
+						<h3>50</h3>
+					</div><!-- textpil2 -->
+				</div><!-- zone-r-pill -->
+
+				
+			</div><!-- box-pill -->
+
+			<div class="boxdetails">
+				<div class="topdt">หมายเหตุ</div>
+				<div class="textpil3">
+					<h1>รับประทานครั้งละ 1 เม็ด เช้า/เย็น</h1>
+					<h2>รับประทานครั้งละ 2 เม็ด เช้า/กลางวัน/เย็น</h2>
+					<h3>รับประทานครั้งละ 1 เม็ด เช้า/เย็น</h3>
+				</div><!-- textpil2 -->
+			</div>
+		</section>
+
+		<footer id="areafoot">
+			<div class="arecurv">
+
+				<div class="logo-bottom">
+						<img src="image/Logo-white.png">
+
+					<ul class="movefoot">
+						<li class="home2"><a href="index-home.html">Home</a></li>
+						<li class="teatment2"><a href="treatment.html">Treatment</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+
+					<div class="con-icon">
+						<i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="fab fa-twitter"></i>
+					</div>
+
+					<div class="textcon">
+						"การช่วยชีวิตคือหน้าที่ของเรา"
+					</div>
+					<div class="coptryight">
+						copyright &copy; 2020 by webdesign17.co.th
+					</div>
+				</div><!-- logo-bottom -->
+			</div><!-- arecurv -->
+		</footer><!-- areafoot -->
+	</div><!-- wrapper -->
+</body>
+
+ <!-- Jsfile -->
+<script type="text/javascript">
+	var running = false
+    function send() {
+        if (running == true)
+            return
+        var msg = document.getElementById("message").value
+        if (msg == "")
+            return
+        running = true
+        addMsg(msg)
+        window.setTimeout(addResponseMsg, 1000, msg)
+    }
+    function addMsg(msg) {
+        var div = document.createElement("div");
+        div.innerHTML = "<span style='flex-grow:1'></span><div class='chat-message'>" + msg + "</div>"
+        div.className = "chat-message-div"
+        document.getElementById("message-box").appendChild(div)
+    }
+    function addResponseMsg(msg) {
+        var div = document.createElement("div");
+        div.innerHTML = "<div class='chat-message'>" + msg + "</div>"
+        div.className = "chat-message-div"
+        document.getElementById("message-box").appendChild(div)
+        running = false
+    }
+    document.getElementById("message").addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            send()
+        }
+    });
+</script>
+
+</html>
